@@ -64,7 +64,7 @@ This project demonstrates my expertise in **data visualization, SQL querying, an
 
 ## 🎓 Education & Background
 
-* **International Master in Data Science** \| Rome Business School (2024 – 2025)
+* **International Master in Data Science and Machine Learning** \| Rome Business School (2024 – 2025)
 * **Master in Statistics and Analytics** \| Azusa Pacific University (2019 – 2021) Graduated **Summa Cum Laude** \| GPA: 3.8+
 * **Bachelor in Communication** \| Azusa Pacific University (2013 – 2017)
 
