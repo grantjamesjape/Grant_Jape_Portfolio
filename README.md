@@ -11,7 +11,7 @@ I bridge the gap between complex data and actionable business decisions, leverag
 | Category | Tools & Languages |
 | :--- | :--- |
 | **Programming & Modeling** | **Python** (data analysis, modeling, visualization), **R** (RStudio), JMP |
-| **Data Warehousing & ETL** | [cite_start]**PostgreSQL** (basic proficiency) [cite: 38][cite_start], Data Structuring, Data Collection [cite: 24][cite_start], Custom Reporting [cite: 26] |
+| **Data Warehousing & ETL** | **PostgreSQL** (basic proficiency), Data Structuring, Data Collection, Custom Reporting |
 | **Visualization & BI** | **Tableau**, **Plotly**, **Dash** (custom dashboards), Google Looker Studio, Databox |
 | **Business Focus** | Regression Modeling, Revenue Forecasting, KPI Monitoring, Cross-Channel Campaign Optimization, Executive Reporting |
 
