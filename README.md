@@ -4,9 +4,9 @@
 
 ---
 
-## 🚀 Core Expertise & Tech Stack
+## 🚀 Core Expertise & Ability
 
-I bridge the gap between complex data and actionable business decisions, leveraging **7+ years** of experience.
+I bridge the gap between complex data and actionable business decisions, leveraging a **double Masters in Data Science and Machine Learning** and **7+ years** of experience.
 
 | Category | Tools & Languages |
 | :--- | :--- |
