@@ -4,6 +4,14 @@
 
 ---
 
+## 🎓 Education & Background
+
+* **International Master in Data Science and Machine Learning** \| Rome Business School (2024 – 2025)
+* **Master in Statistics and Analytics** \| Azusa Pacific University (2019 – 2021) Graduated **Summa Cum Laude** \| GPA: 3.8+
+* **Bachelor in Communication** \| Azusa Pacific University (2013 – 2017)
+
+---
+
 ## 🚀 Core Expertise & Ability
 
 I bridge the gap between complex data and actionable business decisions, leveraging a **double Masters in Data Science and Machine Learning** and **7+ years** of experience.
@@ -19,7 +27,9 @@ I bridge the gap between complex data and actionable business decisions, leverag
 
 ## Featured Projects
 
-I focus on **end-to-end use cases** that demonstrate the full data science lifecycle—from data acquisition to measurable business impact. Below are projects that showcase diverse skills: Modeling, Forecasting, and Visualization.
+I focused on **end-to-end use cases** that demonstrate the full data science lifecycle—from data acquisition to measurable business impact. Below are projects that showcase diverse skills: Modeling, Forecasting, and Visualization.
+
+---
 
 ### 1. Project Title: **[Customer Churn Prediction for Product Strategy]**
 
@@ -32,41 +42,6 @@ This project showcases advanced **classification modeling** aligned with product
     * **Visualization:** Key feature importance plots generated with **Plotly** clearly outlined drivers of churn for Product/Marketing teams.
 * **Impact/Result:** Achieved **[X%] Precision**, enabling the team to focus retention efforts where they matter most.
 * **Code & Live Demo:** [Link to Repo] | [Link to Detailed Walkthrough/Blog Post]
-
----
-
-### 2. Project Title: **[Strategic Revenue & Inventory Forecasting]**
-
-This project highlights my experience with **time series modeling** crucial for operational planning.
-
-* **The Business Challenge:** Improve inventory accuracy and strategic planning by accurately forecasting **revenue and order volume**.
-* **Methodology:**
-    * Collected and structured data from **sales, social media, and market research** sources into centralized dashboards.
-    * Implemented **Time Series Models** (e.g., ARIMA, Prophet) to model seasonality and trend components. *Discuss how you evaluated the forecasts (e.g., MAPE, RMSE).*
-* **Impact/Result:** Improved forecast accuracy by **[Y%]** over previous Excel-based methods, directly supporting inventory purchase decisions.
-* **Code & Live Demo:** [Link to Repo] | [Link to Dashboard Screenshot]
-
----
-
-### 3. Project Title: **[Interactive Marketing Campaign Performance Dashboard]**
-
-This project demonstrates my expertise in **data visualization, SQL querying, and executive reporting**.
-
-* **The Business Challenge:** Create a single source of truth to monitor **cross-channel KPIs** and support continuous optimization for stakeholders.
-* **Methodology:**
-    * Designed the underlying database structure and wrote **complex SQL queries** (leveraging **PostgreSQL** proficiency) to aggregate multi-channel data.
-    * Built an **interactive dashboard** using **Tableau** or **Dash/Plotly** that allows users to filter by channel and region.
-    * Included **executive-facing reporting decks** elements to ensure insights are clear for non-technical leadership.
-* **Impact/Result:** Reduced manual reporting time by **[Z] hours/week** and provided real-time visibility into campaign ROI.
-* **Code & Live Demo:** [Link to Dashboard/App] | [Link to Repo (Code & SQL Scripts)]
-
----
-
-## 🎓 Education & Background
-
-* **International Master in Data Science and Machine Learning** \| Rome Business School (2024 – 2025)
-* **Master in Statistics and Analytics** \| Azusa Pacific University (2019 – 2021) Graduated **Summa Cum Laude** \| GPA: 3.8+
-* **Bachelor in Communication** \| Azusa Pacific University (2013 – 2017)
 
 ---
 
