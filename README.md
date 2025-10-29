@@ -29,7 +29,7 @@ I bridge the gap between complex data and actionable business decisions, leverag
 
 ## 🎯 Project Goal
 
-To quantify the return on investment (ROI) for various marketing channels (e.g., social, email, paid ads) and recommend an optimal budget allocation to **maximize predicted revenue/sales conversion**. This project showcases the ability to apply **regression modeling** in Python to solve a critical business strategy problem.
+To quantify the return on investment (ROI) for various marketing channels (e.g., TV, radio, newspaper) and recommend an optimal budget allocation to **maximize predicted revenue/sales conversion**. This project showcases the ability to apply **regression modeling** in Python to solve a critical business strategy problem.
 
 ## 💡 Business Context
 
@@ -39,7 +39,7 @@ Modern marketing involves spending across multiple channels. The challenge is th
 
 ### 1. Data Collection & ETL
 
-* **Source Data:** Aggregated weekly or monthly time-series data on **Marketing Spend per Channel** and the corresponding **Revenue/Sales Conversion**.
+* **Source Data:** Used a Kaggle dataset on bike sales. Dataset contains 5 years worth of bike sales, **Marketing Spend per Channel** and the corresponding **Revenue/Sales Conversion** for that following week.
 * **Wrangling Tool:** Python/Pandas for data cleaning, aggregation, and ensuring time-series alignment.
 * **Key Challenge Addressed:** Handling any potential data gaps or outliers to create a clean, synchronized input dataset.
 
