@@ -58,9 +58,9 @@ The final OLS model, run on the log-adstock-saturated features, yielded strong p
 
 | Metric | Result | Interpretation |
 | :--- | :--- | :--- |
-| **R-squared** | **$0.731$** | $73.1\%$ of the variance in sales is explained by marketing spend features. |
-| **Condition Number** | **$461$** | Confirms high model stability (after fixing multicollinearity). |
-| **P-Value (F-stat)** | **$0.000$** | The model is statistically significant. |
+| **R-squared** | **0.731** | 73.1% of the variance in sales is explained by marketing spend features. |
+| **Condition Number** | **461** | Confirms high model stability (after fixing multicollinearity). |
+| **P-Value (F-stat)** | **0.000** | The model is statistically significant. |
 
 ### Model Fit Visualization
 
@@ -79,12 +79,12 @@ The most crucial output is the **Sales Sensitivity Coefficient**, which dictates
 
 | Channel | Coefficient (Sales Lift) | P-Value | Significance |
 | :--- | :--- | :--- | :--- |
-| **Nonbranded Search** | **$27,397.20$** | $0.0000$ | **Significant** |
-| **Search & Facebook** | **$10,891.06$** | $0.0000$ | **Significant** |
-| Radio | $1,415.73$ | $0.0000$ | **Significant** |
-| TV | $750.99$ | $0.0052$ | **Significant** |
-| OOH | $-749.44$ | $0.0030$ | **Significant** |
-| Print | $-918.53$ | $0.0000$ | **Significant** |
+| **Nonbranded Search** | **$27,397.20** | 0.0000 | **Significant** |
+| **Search & Facebook** | **$10,891.06** | 0.0000 | **Significant** |
+| Radio | $1,415.73 | 0.0000 | **Significant** |
+| TV | $750.99 | 0.0052 | **Significant** |
+| OOH | $-749.44 | 0.0030 | **Significant** |
+| Print | $-918.53 | 0.0000 | **Significant** |
 
 ### Channel Sensitivity Visualization
 
