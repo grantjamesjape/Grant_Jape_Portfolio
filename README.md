@@ -25,9 +25,7 @@ I bridge the gap between complex data and actionable business decisions, leverag
 
 ---
 
-# Featured Project: Marketing Mix Modeling (MMM) for Budget Allocation
-
-# 📈 Advanced Marketing Mix Modeling (MMM) for Bike Sales
+# 📈 Featured Project: Marketing Mix Modeling (MMM) for Budget Allocation on Bike Sales
 
 ## Project Overview
 
