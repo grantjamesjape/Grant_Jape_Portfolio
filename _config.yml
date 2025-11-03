@@ -1,0 +1,38 @@
+# Jekyll Configuration File
+
+# ----------------
+# Basic Site Settings 
+# ----------------
+# The title of your website
+title: Grant Jape Portfolio
+# A short description for search engines
+description: Grant Jape Portfolio Data Scientist
+
+# ----------------
+# Theme Configuration
+# ----------------
+# If you don't specify a theme, GitHub will default to one of their built-in themes.
+# If you know the name of your theme, uncomment and set it here (e.g., theme: jekyll-theme-minimal)
+# theme: 
+
+# ----------------
+# Build Settings
+# ----------------
+# These settings tell Jekyll which files and folders to include/exclude during the build process.
+
+# Exclude files/folders from the build process
+exclude:
+  - ".sass-cache"
+  - ".jekyll-cache"
+  - "node_modules"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE.txt"
+  - "README.md"
+
+# ----------------
+# Analytics/Custom Includes
+# ----------------
+# By ensuring the `_includes/head.html` file exists (as we created in the last step),
+# your analytics code (which is inside `_includes/analytics.html`) will be
+# reliably injected into the <head> section of every page.
