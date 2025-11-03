@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Uses the title defined in your index.md or falls back to a site-wide title -->
+    <title>{{ page.title | default: site.title }}</title>
 
+    <!-- 
+        *** CRUCIAL STEP 1: GA4 INJECTION ***
+        This line tells Jekyll to insert the content of your 
+        _includes/analytics.html file (which should contain your GA4 code) 
+        right before the closing head tag.
+    -->
+    {% include analytics.html %}
+    
+    <!-- This links to the standard GitHub Pages stylesheet for basic styling -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <!-- You can add more CSS links or internal <style> blocks here if needed -->
+</head>
+<body>
+    <header class="site-header">
+        <!-- Optional: A header or navigation bar can go here -->
+    </header>
+
+    <main class="page-content">
+        <!-- 
+            *** CRUCIAL STEP 2: CONTENT INJECTION ***
+            This is the core variable where Jekyll places the parsed content 
+            of your portfolio (which is now in index.md).
+        -->
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>Built with Jekyll and GitHub Pages.</p>
+    </footer>
+</body>
+</html>
