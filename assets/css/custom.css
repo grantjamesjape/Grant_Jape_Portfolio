@@ -2,15 +2,17 @@
 /* 1. LAYOUT & READABILITY FIXES    */
 /* ================================ */
 
-/* Add responsive padding to the wrapper to prevent content from touching the edges */
-.wrapper {
-    /* Ensures the wrapper doesn't get too wide on very large screens, forced to apply */
+/* We will target both the standard .wrapper and the page-content container
+   to ensure the padding is applied regardless of the theme's structure. */
+.wrapper, .page-content {
+    /* Ensures the content area doesn't get too wide on large screens */
     max-width: 1200px !important; 
-    /* Center the wrapper horizontally, forced to apply */
+    /* Centers the content block horizontally */
     margin: 0 auto !important; 
-    /* Padding on the sides (left/right), 20px is good for all devices, forced to apply */
+    /* Adds crucial padding (20px) on the left and right edges for readability */
     padding: 0 20px !important; 
 }
+
 
 /* ================================ */
 /* 2. TABLE STYLES                  */
