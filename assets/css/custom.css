@@ -1,3 +1,23 @@
+/* ================================ */
+/* 1. LAYOUT & READABILITY FIXES    */
+/* ================================ */
+
+/* Add responsive padding to the wrapper to prevent content from touching the edges */
+.wrapper {
+    /* Large padding for desktop/tablet */
+    padding: 0 40px; 
+    /* Smaller padding for mobile devices */
+    padding: 0 20px; 
+    /* Ensures the wrapper doesn't get too wide on very large screens */
+    max-width: 1200px; 
+    margin: 0 auto; /* Center the wrapper horizontally */
+}
+
+
+/* ================================ */
+/* 2. TABLE STYLES                  */
+/* ================================ */
+
 /* Apply border collapse to the table */
 table {
     border-collapse: collapse;
