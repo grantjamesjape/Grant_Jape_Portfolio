@@ -1,1 +1,17 @@
+<!-- 
+  This file is an OVERRIDE for the default head section of your Jekyll theme.
+  It is essential if you cannot access or modify the main _layouts/default.html file. 
+  
+  Since the theme's original head content is hidden, we must recreate the minimum
+  necessary elements here and ensure your analytics code is included.
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>{{ page.title | default: site.title }}</title>
+
+<!-- Inject your GA4 tracking code here, using the include file you already created -->
 {% include analytics.html %}
+
+<!-- If you need more CSS or meta tags, you should add them below this line. -->
+<!-- Example: -->
+<!-- <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"> -->
