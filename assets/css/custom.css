@@ -2,15 +2,41 @@
 /* 1. LAYOUT & READABILITY FIXES    */
 /* ================================ */
 
-/* We will target both the standard .wrapper and the page-content container
-   to ensure the padding is applied regardless of the theme's structure. */
-.wrapper, .page-content {
-    /* Ensures the content area doesn't get too wide on large screens */
+/* *** AGGRESSIVE FIX: TARGET THE BODY ELEMENT ***
+   This targets the highest level element to force global padding and centering, 
+   overriding fixed-width issues from the base theme. */
+body {
+    /* Adds crucial padding (20px) on the left and right sides of the entire document */
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    
+    /* Prevents content from stretching too wide on massive screens */
     max-width: 1200px !important; 
-    /* Centers the content block horizontally */
+    
+    /* Centers the entire body content block horizontally */
     margin: 0 auto !important; 
-    /* Adds crucial padding (20px) on the left and right edges for readability */
-    padding: 0 20px !important; 
+}
+
+/* Fallback/cleanup for common container elements */
+.wrapper, .page-content {
+    /* Set margin to 0 to prevent double-centering/margin issues */
+    margin: 0 !important;
+    /* Ensure content uses full available width within the body's padding */
+    width: 100% !important; 
+    /* Remove horizontal padding here as body is handling it */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+/* *** IMAGE/CHART CENTERING AND PADDING FIXES *** */
+/* Makes all images/charts responsive, centered, and adds vertical space */
+img, figure {
+    display: block; /* Allows margin: auto for centering */
+    max-width: 100%; /* Ensures images scale down on mobile */
+    height: auto;
+    margin: 2em auto !important; /* Centers the image and adds vertical padding above/below */
+    padding: 0; /* Remove any accidental padding */
 }
 
 
