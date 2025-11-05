@@ -195,39 +195,19 @@ These transformations allow the model to learn more meaningful relationships bet
 ```python
 df['is_obese'] = (df['bmi'] >= 30).astype(int)
 ```
+
 ### 2️⃣ Adding a Smoker–Obesity Interaction Term
 
 ```python
 df['smoker_obese_interaction'] = ((df['smoker'] == 'yes') & (df['is_obese'] == 1)).astype(int)
 ```
+
 ### 3️⃣ Deriving Age Groups (Binning)
 
 ```python
 bins = [18, 30, 45, 65, 100]
 labels = ['Young_Adult', 'Middle_Adult', 'Senior_Adult', 'Elderly']
 df['age_group'] = pd.cut(df['age'], bins=bins, labels=labels, right=False)
-```
-
-## ⚙️ Modeling & Evaluation
-
-After feature engineering, multiple regression models were trained and compared to predict medical insurance charges.  
-The goal was to identify which model best balances **accuracy**, **stability**, and **interpretability**.
-
----
-
-### 1️⃣ Data Preparation
-
-Before training, categorical features were one-hot encoded, and the dataset was split into training and testing subsets (80/20 split).  
-The target variable `charges` was log-transformed to stabilize variance and reduce skewness:
-
-```python
-df = pd.get_dummies(df, drop_first=True)
-
-X = df.drop(["charges", "log_charges"], axis=1)
-y = df['charges']
-y_log = np.log(y)
-
-X_train, X_test, y_train, y_test = train_test_split(X, y_log, test_size=0.2, random_state=42)
 ```
 
 ---
@@ -237,7 +217,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y_log, test_size=0.2, ran
 After feature engineering, multiple regression models were trained and compared to predict medical insurance charges.  
 The goal was to identify which model best balances **accuracy**, **stability**, and **interpretability**.
 
----
 
 ## 1️⃣ Data Preparation
 
