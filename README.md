@@ -320,8 +320,6 @@ An R² of **0.866** suggests that the model explains roughly **87% of the varian
 A scatterplot of **Actual vs. Predicted** charges (in log scale) demonstrated a strong positive linear alignment —  
 predictions closely follow the true values, validating the model’s consistency.
 
----
-
 ## 6️⃣ Feature Importance Analysis
 
 Feature importance values from the final Gradient Boosting model revealed which variables contributed most to predictions.
@@ -367,7 +365,9 @@ To interpret results in their real-world monetary scale, predictions were expone
 This project successfully demonstrated how **data-driven modeling** can uncover key health cost drivers and produce reliable cost predictions.  
 Such insights are valuable for both **insurance pricing strategies** and **public health planning**.
 
+
 ---
+
 
 # 📈 Featured Project 2: Marketing Mix Modeling (MMM) for Budget Allocation on Bike Sales
 
