@@ -27,8 +27,7 @@ I bridge the gap between complex data and actionable business decisions, leverag
 
 ---
 
-# Featured Project 1: Claims Model
-# 🩺 Medical Insurance Cost Prediction
+# Featured Project 1: 🩺 Medical Insurance Cost Prediction
 
 This project analyzes and models healthcare insurance charges using demographic and lifestyle factors such as age, BMI, smoking status, and region. The goal is to understand **what drives medical insurance costs** and build a predictive model that accurately estimates charges for new customers.
 
