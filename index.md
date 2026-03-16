@@ -20,10 +20,10 @@ I bridge the gap between complex data and actionable business decisions, leverag
 
 | Category | Tools & Languages |
 | :--- | :--- |
-| **Programming & Modeling** | **Python** (data analysis, modeling, visualization), **R** (RStudio), JMP |
-| **Visualization & BI** | **Plotly**, **Dash** (custom dashboarding), **Tableau**, Google Looker Studio, Databox |
-| **Business Focus** | Regression Modeling, Revenue Forecasting, KPI Monitoring, Cross-Channel Campaign Optimization, Executive Reporting |
-| **Data Warehousing & ETL** | SQL, Data Structuring, Data Collection, Custom Reporting |
+| **Machine Learning & Modeling** | **Python** (End-to-end model training, hyperparameter tuning, and validation), R (Statistical analysis), **Scikit-Learn**, XGBoost, Neural Networks, Regression, and Clustering |
+| **Visualization & BI** | **Dash & Plotly** (Custom application development), **Tableau**, Google Looker Studio, and Databox for interactive internal and client-facing decision support |
+| **Data Engineering & ETL** | **Expert SQL** (CTEs, complex joins, and data structuring), automated data collection, and architecting robust DataOps pipelines for model monitoring |
+| **Business Strategy** | Revenue & Time-Series Forecasting, KPI Monitoring, Cross-Channel Campaign Optimization, A/B Testing, and Executive-level Strategic Reporting ||
 
 ---
 
